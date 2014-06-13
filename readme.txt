@@ -14,10 +14,14 @@ $ git log						//git log命令显示从最近到最远的提交日志
 $ git log --pretty=oneline		//
 $ git reset --hard HEAD^		//回退到上一个版本
 $ git reflog					//查看命令历史，以便确定要回到未来的哪个版本。
+$ cat readme.txt				//
+$ git checkout -- readme.txt	//丢弃工作区的修改
+$ rm test.txt					//删除文件
 
-$ git remote add origin git@github.com:michaelliao/learngit.git
+$ git remote add origin git@github.com:michaelliao/learngit.git		//把本地仓库的内容推送到GitHub仓库
 
 $ git push -u origin master		//就可以把本地库的所有内容推送到远程库上
+//不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 $ git push origin master 		//把本地master分支的最新修改推送至GitHub
 $ git clone git@github.com:michaelliao/gitskills.git	//克隆远程库
 
