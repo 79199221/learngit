@@ -1,17 +1,19 @@
-﻿$ mkdir learngit
-$ cd learngit
-$ pwd
-/Users/michael/learngit
+﻿$ mkdir learngit				//创建一个空目录
+$ cd learngit					//切换目录
+$ pwd							//显示当前目录
 
-$ git init
-Initialized empty Git repository in /Users/michael/learngit/.git/
+$ git init						//把这个目录变成Git可以管理的仓库
 
-$ git add readme.txt
+$ git add readme.txt			//文件添加到仓库
 
-$ git add file1.txt
-$ git add file2.txt
-$ git add file3.txt
-$ git commit -m "add 3 files."
+$ git commit -m "add 3 files."	//把文件提交到仓库
+
+$ git status					//仓库当前的状态
+$ git diff readme.txt 			//查看修改内容
+$ git log						//git log命令显示从最近到最远的提交日志
+$ git log --pretty=oneline		//
+$ git reset --hard HEAD^		//回退到上一个版本
+$ git reflog					//查看命令历史，以便确定要回到未来的哪个版本。
 
 $ git remote add origin git@github.com:michaelliao/learngit.git
 
