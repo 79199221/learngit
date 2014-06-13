@@ -25,7 +25,7 @@ $ git branch dev				//创建dev分支
 $ git checkout dev				//切换到dev分支
 $ git branch					//查看当前分支
 
-
+dev分支
 
 
 
