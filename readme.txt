@@ -26,7 +26,8 @@ $ git checkout dev				//切换到dev分支
 $ git branch					//查看当前分支
 $ git branch -d dev				//删除dev分支
 
-master分支
+master&dev分支
+
 
 
 
