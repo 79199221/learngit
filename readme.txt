@@ -24,9 +24,10 @@ $ git checkout -b dev			//创建dev分支，然后切换到dev分支
 $ git branch dev				//创建dev分支
 $ git checkout dev				//切换到dev分支
 $ git branch					//查看当前分支
+$ git merge dev					//合并指定分支到当前分支
 $ git branch -d dev				//删除dev分支
 
-master&dev分支
+$ git log --graph --pretty=oneline --abbrev-commit	//分支的合并情况
 
 
 
